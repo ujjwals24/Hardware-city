@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/f4b7fe97f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- <script src="index.js"></script> -->
+    <link rel="stylesheet" href="sidenav.css">
+    <!-- <link rel="stylesheet" href="checking.css"> -->
+    <title>Hardware City</title>
+</head>
+
+<body>
+
+    <nav>
+        <!-- navbar -->
+        <!-- <p id="front">For any query, email us at care@hardwarecity.com or call us on +91 8448449073</p> -->
+        <!-- ===========Navbar============= -->
+        <div class="head">
+            <div class="navbar-cont">
+                <a href="index.html"><img src="HARDWARE CITYY.png" alt=""></a>
+                <div class="search-box">
+                    <div class="country-select" id="location">
+                        <div class="select">
+                            <p id="text">
+                                All Categories
+                            </p>
+                            <i class="fa-solid fa-angle-down" id="arrow"></i>
+
+                        </div>
+
+                        <ul class="option" id="list">
+                            <a style="text-decoration:none" href="products.html">
+                                <li class="option1" onclick="myFunction('All Categories')">
+                                    <p>All Categories</p>
+                                </li>
+                            </a>
+                            <li class="option1" onclick="myFunction('Abrasives')">
+                                <p>Abrasives</p>
+                            </li>
+                            <li class="option1" onclick="myFunction('Adhesives sealants and tape')">
+
+                                <p>Adhesives sealants and tape</p>
+                            </li>
+                            <li class="option1" onclick="myFunction('Agriculture Garden & Landscaping')">
+
+                                <p>Agriculture Garden & Landscaping</p>
+                            </li>
+                            <li class="option1" onclick="myFunction('Appliances')">
+
+                                <p>Appliances</p>
+                            </li>
+                            <li class="option1" onclick="myFunction('Bearings')">
+
+                                <p>Bearings</p>
+                            </li>
+                            <li class="option1" onclick="myFunction('Cleaning')">
+
+                                <p>Cleaning</p>
+                            </li>
+                            <li class="option1" onclick="myFunction('Corporate Gifts')">
+
+                                <p>Corporate Gifts</p>
+                            </li>
+                            <li class="option1" onclick="myFunction('Electrical')">
+
+                                <p>Electrical</p>
+                            </li>
+                            <li class="option1" onclick="myFunction('Electronics & Robotics')">
+
+                                <p>Electronics & Robotics</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <input type="text" class="search"
+                        placeholder="Search Products by title,supplier,sku,categorie,etc.... " id="searchid">
+                    <p><i class="fa-solid fa-magnifying-glass" id="search_icon"></i></p>
+                </div>
+
+                <div class="logo">
+                    <div class="image" id="imgId">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+                    </div>
+
+                    <div class="dropDown" id="dropDownid">
+                        <div class="Profile">
+                            <div> <img style="width:65px" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                                    alt=""></div>
+                            <div style="margin-left:15px">
+                                <p style="margin-bottom:5px">Hello,</p>
+                                <h4 style="margin-bottom:5px">CHUNKY SHARMA</h4>
+                                <p style="margin-bottom:5px"><u> View and edit profile</u></p>
+                            </div>
+                        </div>
+                        <hr>
+                        <ul>
+                            <li>
+                                <a style="text-decoration:none;color: black;" href="login.html"><p>Sign In</p></a>
+                            </li>
+                            <li>
+                                <p>Pay Latter</p>
+                            </li>
+
+                            <li>
+
+                                <p>Quotation</p>
+                            </li>
+                            <li>
+                                <hr>
+
+                                <p>Purchase List</p>
+                            </li>
+                            <li>
+
+                                <p>Quick Order</p>
+                            </li>
+                            <hr>
+                            <li>
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                <p>Log Out</p>
+                            </li>
+                            <hr>
+                        </ul>
+                    </div>
+                </div>
+                <div style="display:flex;color:white;" class="msg">
+                    <div style="margin-left: 5px;">
+                        <p><i class="fa-solid fa-location-dot"></i></p>
+                    </div>
+                    <div style="margin-left:5px">
+                        <p style="font-size: small;">Track</p>
+                        <p style="font-size: small;"><b>Order</b></p>
+                    </div>
+                </div>
+                <a style="text-decoration:none" href="cart.html">
+                    <div style="display:flex;color:white;margin-left:10px" class="msg">
+                        <p><i class="fa-solid fa-cart-plus"></i></p>
+                        <p style="font-size:small;margin-left:5px"><b>CART</b></p>
+                    </div>
+                </a>
+                <div>
+                    <div class="add">
+                        <img src="https://www.industrybuying.com/static/images/android-paly.png" alt="">
+                        <hr>
+                        <img style="margin-left:5px" src="https://www.industrybuying.com/static/images/ios-play.png"
+                            alt="">
+                    </div>
+                    <p style="color:white;margin-left:20px;">Download the APP!</p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- main section -->
+    <div id="main">
+
+
+        <div id="menu-list">
+            <ul id="FirstleftNav">
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <div class="firstdiv">
+                        <a href="">
+                            <img class="LeftNavFirstListImage"
+                                src="https://th.bing.com/th/id/OIP.yxAj4dkMIZ8dk51u-ZZH9wHaHa?w=170&h=180&c=7&r=0&o=5&pid=1.7"
+                                alt="">
+                            &nbsp Agriculture Garden & Landscaping
+                        </a>
+
+
+                    </div>
+                </li>
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <div class="firstdiv">
+                        <a href="">
+                            <img class="LeftNavFirstListImage"
+                                src="https://t3.ftcdn.net/jpg/00/95/23/44/240_F_95234465_OMLu2P2Gw5zhorxwJLtMNaSWYzjRYUlm.jpg"
+                                alt="">
+                            &nbsp Power Tools
+                        </a>
+
+                    </div>
+
+                </li>
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <div class="firstdiv">
+                        <a href="">
+                            <img style="width: 15px;" class="LeftNavFirstListImage"
+                                src="https://th.bing.com/th/id/OIP.7SObYxU3UFFcJ8aGOEmzGgHaJ-?w=129&h=180&c=7&r=0&o=5&pid=1.7"
+                                alt="">
+                            &nbsp&nbsp&nbsp Office Supplies
+                        </a>
+
+                    </div>
+
+                </li>
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <div class="firstdiv">
+                        <a href="">
+                            <img class="LeftNavFirstListImage"
+                                src="https://th.bing.com/th/id/OIP.k1p6JyN8Tr1Yya7R6T0YPQHaHl?w=176&h=180&c=7&r=0&o=5&pid=1.7"
+                                alt="">
+                            &nbsp Material Handling & Packaging
+                        </a>
+
+                    </div>
+
+                </li>
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <div class="firstdiv">
+                        <a href="">
+                            <img class="LeftNavFirstListImage"
+                                src="https://th.bing.com/th/id/OIP.HDweZv5BJg6IBYKuSjGQlAHaH0?w=192&h=202&c=7&r=0&o=5&pid=1.7"
+                                alt="">
+                            &nbsp Pumps
+                        </a>
+
+                    </div>
+
+                </li>
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <div class="firstdiv">
+                        <a href="">
+                            <img class="LeftNavFirstListImage"
+                                src="https://th.bing.com/th/id/OIP.0bDV_ObURarQtJrDVQVSjwAAAA?w=185&h=185&c=7&r=0&o=5&pid=1.7"
+                                alt="">
+                            &nbsp Automotive Maintenance
+                        </a>
+
+                    </div>
+
+                </li>
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <div class="firstdiv">
+                        <a href="">
+                            <img class="LeftNavFirstListImage"
+                                src="https://th.bing.com/th/id/OIP.8VErV1bCWqHbmo3SYnZC-QHaHa?w=207&h=208&c=7&r=0&o=5&pid=1.7"
+                                alt="">
+                            &nbsp Safety
+                        </a>
+
+                    </div>
+
+                </li>
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <div class="firstdiv">
+                        <a href="">
+                            <img class="LeftNavFirstListImage"
+                                src="https://th.bing.com/th/id/OIP.EZAXVemT5hRylYAhfV3HVgHaHZ?w=210&h=209&c=7&r=0&o=5&pid=1.7"
+                                alt="">
+                            &nbsp Cleaning
+                        </a>
+
+                    </div>
+
+                </li>
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <div class="firstdiv">
+                        <a href="">
+                            <img class="LeftNavFirstListImage"
+                                src="https://th.bing.com/th/id/OIP.nQctKoDhrbL47SQjgZzC-QHaHQ?w=180&h=180&c=7&r=0&o=5&pid=1.7"
+                                alt="">
+                            &nbsp Electrical
+                        </a>
+                        <div class="sub-menu-1">
+
+                        </div>
+                    </div>
+
+                </li>
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <div class="firstdiv">
+                        <a href="">
+                            <img class="LeftNavFirstListImage"
+                                src="https://th.bing.com/th/id/OIP.5lgePgAm37JM1W5fKGLhvwHaHa?w=195&h=196&c=7&r=0&o=5&pid=1.7"
+                                alt="">
+                            &nbsp Testing and Measuring instruments
+                        </a>
+                        <div class="sub-menu-1">
+
+                        </div>
+                    </div>
+
+                </li>
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <div class="firstdiv">
+                        <a href="">
+                            <img class="LeftNavFirstListImage"
+                                src="https://th.bing.com/th/id/OIP.r_UUizzlma_0-Bs3c6YJowHaHa?w=196&h=195&c=7&r=0&o=5&pid=1.7"
+                                alt="">
+                            &nbsp IT & Electronics
+                        </a>
+                        <div class="sub-menu-1">
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </li>
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <div class="firstdiv">
+                        <a href="">
+                            <img class="LeftNavFirstListImage"
+                                src="https://th.bing.com/th/id/OIP.FMvkIaBD7ynRPmQljbmngAAAAA?w=199&h=190&c=7&r=0&o=5&pid=1.7"
+                                alt="">
+                            &nbsp Furniture, Hospitality and Food Service
+                        </a>
+                        <div class="sub-menu-1">
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </li>
+                <li style="list-style-type: none;" class="LeftNavFirstList" class="dropbtn">
+                    <a href="">
+                        &nbsp See All Categories
+                    </a>
+                </li>
+            </ul>
+            <!-- </section>
+        </div> -->
+        </div>
+
+        <!-- product list left side  -->
+        <div id="product-list">
+            <div class="block">
+                <div class="prod-blk-1">
+                    
+                    <img id="slider" src="https://static3.industrybuying.com/homepage/1650877078AGRIPRO.png" alt="">
+                    <div class="slider-right">
+                        <div class="top">
+                            <img src="https://static3.industrybuying.com/homepage/16732564011662983964web-side-bnr-top%20(2)%20(1).png"
+                                alt="">
+                        </div>
+                       
+                        
+                        <div class="bottom">
+                            <div class="pad-contact pad">
+                                <div>
+                                    <img style="width: 20%;"
+                                        src="https://www.industrybuying.com/static/images/mobile.png" alt="">
+                                    <span style="margin-left:10px;">Enter your phone number to <b>GET UPTO 5%
+                                            OFF</b></span>
+                                </div>
+
+                                <input type="number" placeholder="Enter your number">
+                                <button>GO</button>
+                            </div>
+                            <div class="pad">
+                                <img src="https://static3.industrybuying.com/homepage/1551767207right-small-reseller2.gif"
+                                    alt="">
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div id="mid-block">
+                    <div class="right-block">
+                        <div>
+                            <img width="80%"
+                                src="https://static3.industrybuying.com/homepage/1652437509PowerHouse-Strip-Banner%20(1).png"
+                                alt="">
+                        </div>
+
+                        <h3 class="title">IB POWER BRAND</h3>
+                        <!-- Dynamic data from js -->
+                        <div class="right-mid" id="right-mid" >
+                            
+                        </div>
+                    </div>
+                    <div class="left-block">
+                        <div> 
+                            <img
+                                src="https://static3.industrybuying.com/homepage/1669783977image%20(8).png"
+                                alt="">
+                        </div>
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1669871486image%20(10).png"
+                                alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="middle-top">
+                    <img src="https://static3.industrybuying.com/homepage/1663932735Vacuum-Cleaner.jpg" alt="">
+                </div>
+                <h3 class="title">
+                    BEST SELLERS
+                </h3>
+                <div class="prod-mid-grid">
+                    <div>
+                        <div>
+                            <img src="https://static1.industrybuying.com/products/furniture-hospitality-and-food-service/water-dispensers/FUR.WAT.14570895_1667958140407.webp"
+                                alt="">
+                        </div>
+                        <p>Voltas Floor Mounted Water Dispenser Minimagic Pure-F</p>
+                        <p>by VOLTAS</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 7,990
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                        
+                    </div>
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/welding/welding-machine/arc-welding-machine/WEL.ARC.65308964_1668172023800.webp"
+                                alt=""></div>
+                        <p>Voltas Floor Mounted Water Dispenser Minimagic Pure-F</p>
+                        <p>by VOLTAS</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 13,800
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/solar/solar-panels/perc-solar-panel/SOL.SOL.84439435_1668119360416.webp"
+                                alt=""></div>
+                        <p>Waaree 445W 24V Mono Perc Solar Panel</p>
+                        <p>by VOLTAS</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 19,800
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/pumps/water-pumps/domestic-monoblock-pump/PUM.DOM.16523646_1667956625830.webp"
+                                alt=""></div>
+                        <p>Texmo 0.5 HP DMS 02N Domestic Water Motor Pump</p>
+                        <p>by Waaree</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 9,690
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/cleaning/pressure-washer/CLE.HOM.61033166_1667972760820.webp"
+                                alt=""></div>
+                        <p>Bosch Universal Aquatak 125 1500W Green High Pressure Washer, 0600 8A7 AF0</p>
+                        <p>by Bosch</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 9,990
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/power-tools/pressure-washer/CLE.PRE.87760694_1672923134164.webp"
+                                alt=""></div>
+                        <p>Pinaka High Pressure Car Washer Power Wash 150 Bar Pressure Pressure Washer</p>
+                        <p>by Pinaka</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 4,846
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/pumps/submersible-pumps/borewell-submersible-pumps/PUM.BOR.84384240_1668428584876.webp"
+                                alt=""></div>
+                        <p>Jindal Gold 1 Hp Water Filled Submersible Pump with Copper Winding</p>
+                        <p>by Jindal Gold</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 4,390
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/pneumatics/spray-gun-air-gun/spray-gun/PNE.SPR.62684915_1668029168422.webp"
+                                alt=""></div>
+                        <p>INGCO Metal 450W HVLPFloor Based Electric Paint Spray Gun SPG3508</p>
+                        <p>by Ingco</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 14,846
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/agriculture-garden-landscaping/grain-processing-machine/AGR.GRA.85702340_1668750002046.webp"
+                                alt=""></div>
+                        <p>AgriPro 3 HP Combined Rice Mill Machine without Motor APCR6N409FC</p>
+                        <p>by AgriPro</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 21,846
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/packaging-materials-and-machines/sealing-machine/PAC.SEA.54144595_1669893964814.webp"
+                                alt=""></div>
+                        <p>PowerHouse 750W Sealing Machine FR900 with 6 Months Warranty</p>
+                        <p>by PowerHouse</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 16,800
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- new arrivals -->
+                <h3 class="title">
+                    <b>NEW ARRIVALS</b>
+                </h3>
+                <div id="new-arrivals">
+
+                    <div>
+                        <div>
+                            <img src="https://static1.industrybuying.com/products/office-supplies/office-furniture/office-chairs/OFF.OFF.36048444_1668228102435.webp"
+                                alt="">
+                        </div>
+                        <p>Green Soul Jupiter Black High Back Mesh Efficient Chair</p>
+                        <p>by Green Soul</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 10,880
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/power-tools/angle-grinders/PO.AN.731400_1667895577501.webp"
+                                alt=""></div>
+                        <p>BOSCH GWS 600 professional Angle Grinder for Metal Working (with Brush Motor & Protective</p>
+                        <p>by Bosch</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 8,880
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/office-supplies/computers-accessories/office-speaker/OFF.OFF.26966666_1668356707211.webp"
+                                alt=""></div>
+                        <p>LG XBOOM OK55 Party Speaker (Black)</p>
+                        <p>by LG</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 27,800
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/pneumatics/spray-gun-air-gun/spray-gun/PNE.SPR.75865087_1668211826338.webp"
+                                alt=""></div>
+                        <p>Bullows TL-AT-ES-RT-1.4SS-FG Eco Smart Auto Gun (Ratchet Type)</p>
+                        <p>by Bullows</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 23,335
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/furniture-hospitality-and-food-service/commercial-kitchen/meat-grinder/FUR.MEA.26228143_1668253925994.webp"
+                                alt=""></div>
+                        <p>Orbit TH-312 3000W White Meat Grinder</p>
+                        <p>by Orbit</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 3,990
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/machinery/sugarcane-juice-extractor/MAC.SUG.95778966_1668205530158.webp"
+                                alt=""></div>
+                        <p>Gravis Chottu+ Sugarcane Juice Machine with 1.5hp Honda Engine</p>
+                        <p>by Gravis</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 59,900
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/led-lights/led-bay-lights/LED.LED.65859772_1668661264099.webp"
+                                alt=""></div>
+                        <p>Syska UFO-E Series LED Hi Bay Light SSK-UFO-E-E-100W</p>
+                        <p>by Syskaby Syska</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 6,990
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/cleaning/pressure-washer/CLE.PRE.67383137_1668850549303.webp"
+                                alt=""></div>
+                        <p>Kortex R5 High Pressure Washer Machine Motive Power 1800W & Pressure 130 Bar</p>
+                        <p>by KORTEX</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 19,880
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/it-electronics/storage-devices/hard-disks/ITE.HAR.85928655_1668666860652.webp"
+                                alt=""></div>
+                        <p>SanDisk 1TB Extreme Portable SSD- 1050MB/s,PC,MAC & TypeC Smartphone Compatible</p>
+                        <p>By SanDisk</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 19,800
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div> <img
+                                src="https://static1.industrybuying.com/products/cleaning/pressure-washer/CLE.PRE.77508301_1672030732066.webp"
+                                alt=""></div>
+                        <p>Kapicon 2000 W 150 Bar Singal Phase Car Pressure Washer KP-40X</p>
+                        <p>by Kapicon</p>
+                        <div class="shop-btn">
+                            <div class="lowerSection">
+                                <div class="mainPrice">
+                                    Rs. 19,800
+                                </div>
+                            </div>
+                            <div><button>Buy Now</button></div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+                <!-- furniture and hosp -->
+                <h3 class="title">
+                    <b> FURNITURE,HOSPITALITY aND FOOD SERVISES</b>
+                </h3>
+                <div class="fur-and-hos">
+                    <div class="furniture">
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1646996896Furniture-16_130x74.png"
+                                alt="">
+                            <p>Cabinets and side boards</p>
+                            <p class="offer-text">Various designs at best price</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1646996902Furniture-6_130x74.png"
+                                alt="">
+                            <p>chairs</p>
+                            <p class="offer-text">Upto 65% off</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1646996961Furniture-17_130x74.png"
+                                alt="">
+                            <p>Water Purifier</p>
+                            <p class="offer-text">Upto 24% off</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1646996920Furniture-1_130x74.png"
+                                alt="">
+                            <p>water Despenser</p>
+                            <p class="offer-text">Upto 25% off</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1646996927Furniture-11_130x74.png"
+                                alt="">
+                            <p>Food Service Storage and Transformation</p>
+                            <p class="offer-text">Wild Range of Products</p>
+                        </div>
+
+                        <div>
+                            <img src=" https://static3.industrybuying.com/homepage/1646996933Furniture-12_130x74.png"
+                                alt="">
+                            <p>Deep Freezer</p>
+                            <p class="offer-text">Starting from Rs. 14,500</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1646996940Furniture-15_130x74.png"
+                                alt="">
+                            <p>Cafe Chaairs and Barstools</p>
+                            <p class="offer-text">Multiple designs</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1646996946Furniture-3_130x74.png"
+                                alt="">
+                            <p>Tables</p>
+                            <p class="offer-text">Upto 80% off</p>
+                        </div>
+
+                    </div>
+                    <div>
+                        <img src="https://static3.industrybuying.com/homepage/1669293231image%20(5).png" alt="">
+                    </div>
+
+
+
+
+                </div>
+                <!-- cleaning -->
+                <h3 class="title">
+                    <b>CLEANING</b>
+                </h3>
+                <div class="fur-and-hos">
+                    <div class="furniture">
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1650366611Pressure%20washer.png"
+                                alt="">
+                            <p>Pressure Washer</p>
+                            <p class="offer-text">Wild Range of Products</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1650366635Vaccum%20cleaner.png"
+                                alt="">
+                            <p>Vaccume Cleaners</p>
+                            <p class="offer-text">Upto 50% off</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1655961999CLE.MIC.36119213_1653482361886.jpg"
+                                alt="">
+                            <p>Micro fiber cloth</p>
+                            <p class="offer-text">Best Rates on Micro Fiber</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1650366695Untitled%20design.png"
+                                alt="">
+                            <p>cleaning Liquids</p>
+                            <p class="offer-text">Upto 60% off</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1646996927Furniture-11_130x74.png"
+                                alt="">
+                            <p>Dustbin</p>
+                            <p class="offer-text">Starting from Rs. 54</p>
+                        </div>
+
+                        <div>
+                            <img src=" https://static3.industrybuying.com/homepage/1650366836Air%20purifier.png" alt="">
+                            <p>Air Purifire filters and parts</p>
+                            <p class="offer-text">Upto 35% off</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1650524800Windows.png" alt="">
+                            <p>Surface Care</p>
+                            <p class="offer-text">Affordable Care</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1650524822Glass%20cleaning%20tools.png"
+                                alt="">
+                            <p>Windows and Glass cleaning tool</p>
+                            <p class="offer-text">All the brands you need</p>
+                        </div>
+
+                    </div>
+                    <div>
+                        <img src=https://static3.industrybuying.com/homepage/1650526743unnamed.png alt="">
+                    </div>
+                </div>
+                <!-- testing and measurement Instument -->
+                <h3 class="title">
+                    <b>TESTING AND MEASUREMENT INSTUMENT</b>
+                </h3>
+                <div class="fur-and-hos">
+                    <div class="furniture">
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1647000067Insulation-Resistance-Tester-1.png"
+                                alt="">
+                            <p>Insulation Resistance Taster</p>
+                            <p class="offer-text">Upto 55% off</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1647000067Infrared-Thermometer-2.png"
+                                alt="">
+                            <p>Infrared Thermometer</p>
+                            <p class="offer-text">Upto 60% off</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1647000068Coating-Thickness-Meter-3.png"
+                                alt="">
+                            <p>Coating Thickness Meter</p>
+                            <p class="offer-text">Upto 30% off</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1647000069Digital-Calipers-4.png"
+                                alt="">
+                            <p>Digital Caliper</p>
+                            <p class="offer-text">Upto 50% off</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1647000070Digital-Clamp-Meter-5.png"
+                                alt="">
+                            <p>Digital Clamp Meter</p>
+                            <p class="offer-text">Upto 75% off</p>
+                        </div>
+
+                        <div>
+                            <img src=" https://static3.industrybuying.com/homepage/1647000071Digital-Multimeters-6.png"
+                                alt="">
+                            <p>Digital Multimeter</p>
+                            <p class="offer-text">Upto 55% off</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1647000071Insulation-Tester.png"
+                                alt="">
+                            <p>Analog Insulation tester</p>
+                            <p class="offer-text">Upto 25% off</p>
+                        </div>
+
+                        <div>
+                            <img src="https://static3.industrybuying.com/homepage/1647000072Outside-Micrometer-8.png"
+                                alt="">
+                            <p>Outside Micrometer</p>
+                            <p class="offer-text">Upto 50% off</p>
+                        </div>
+
+                    </div>
+                    <div>
+                        <img src="https://static3.industrybuying.com/homepage/1647347789b-2.jpg" alt="">
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- footer -->
+
+    <footer id="footer">
+        <!-- footer-top -->
+        <div id="footer-filter">
+            <div id="footer-option">
+                <div>
+                    <h4>Shop All Categories</h4>
+                </div>
+                <div>
+                    <h4>Shop All Brands</h4>
+                </div>
+                <div>
+                    <h4>Popular Searches</h4>
+                </div>
+
+            </div>
+            <hr style="width: 90%;margin: auto;">
+            <div id="footer-top">
+                <div class="top-list">
+                    <ul>
+                        <li><a href="#">LED Lights</a></li>
+                        <li><a href="#">Paints</a></li>
+                        <li><a href="#">Corporate Gifts</a></li>
+                        <li><a href="#">Geyser</a></li>
+                        <li><a href="#">Welding</a></li>
+                        <li><a href="#">Tooling and Cutting</a></li>
+                        <li><a href="#">Abrasives</a></li>
+                    </ul>
+                </div>
+                <div class="top-list">
+                    <ul>
+                        <li><a href="#">Power Tools</a></li>
+                        <li><a href="#">Pumps</a></li>
+                        <li><a href="#">Safety</a></li>
+                        <li><a href="#">Bearings</a></li>
+                        <li><a href="#">Cleaning</a></li>
+                        <li><a href="#">Dimension Measurement</a></li>
+                        <li><a href="#">Electrical</a></li>
+                    </ul>
+                </div>
+                <div class="top-list">
+                    <ul>
+                        <li><a href="#">Electronics & Robotics</a></li>
+                        <li><a href="#">Fasteners</a></li>
+                        <li><a href="#">Furniture and Food Service</a></li>
+                        <li><a href="#">Hand Tools</a></li>
+                        <li><a href="#">Hydraulics</a></li>
+                        <li><a href="#">IT & Electronics</a></li>
+                        <li><a href="#">Industrial Automation</a></li>
+                    </ul>
+                </div>
+                <div class="top-list">
+                    <ul>
+                        <li><a href="#">Lab Supplies</a></li>
+                        <li><a href="#">Machinery</a></li>
+                        <li><a href="#">Machining Accessories</a></li>
+                        <li><a href="#">Medical Supplies & Equipment</a></li>
+                        <li><a href="#">Office Supplies</a></li>
+                        <li><a href="#">Plumbing</a></li>
+                        <li><a href="#">Pneumatics</a></li>
+                    </ul>
+                </div>
+                <div class="top-list">
+                    <ul>
+                        <li><a href="#">Automotive Maintenance and Accessories</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">See all Categories ></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- footer-mid -->
+        <div id="footer-mid">
+            <div>
+                <div>
+                    <ul>
+                        <li>
+                            <p>Company</p>
+                        </li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Sell On Industrybuying</a></li>
+                        <li><a href="#">Special offers</a></li>
+                        <li><a href="#">Articles</a></li>
+                    </ul>
+                </div>
+                <div id="help">
+                    <div>
+                        <ul>
+                            <li>
+                                <p>Help</p>
+                            </li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Report Infringement</a></li>
+                            <li><a href="#">Cancellations & Returns</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div>
+                            <p style="font-size: 13px;">Have a question or want to place an order?</p>
+                        </div>
+                        <div style="color: rgb(219, 217, 217);"><i class="fa-solid fa-phone-volume"></i>
+                            <i style="padding-left: 5px; font-size: 13px;">Helpline Number: Call: +91 1234567890</i>
+                            <i style="padding-left: 10px; font-size: 13px;"> (Mon-Sun: 9am-6pm)</i>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div>
+                    <ul class="connect">
+                        <li>
+                            <p>Connect with us</p>
+                        </li>
+                        <li><a href="https://www.facebook.com/industrybuying" target="_blank">
+                                <i style="color: rgb(32, 101, 191);" class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/industrybuying" target="_blank">
+                                <i style="color: rgb(32, 101, 191);" class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.pinterest.com/industrybuy0039/" target="_blank">
+                                <i style="color: brown;" class="fa-brands fa-pinterest-p"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="connect">
+                        <li>
+                            <p>Download Our APP!</p>
+                        </li>
+                        <li><a href="https://play.google.com/store/apps/details?id=industrybuying.com.industrybuying&pli=1"
+                                target="_blank">
+                                <i style="color: rgb(48, 169, 48);" class="fa-brands fa-google-play"></i></a>
+                            <a href="https://apps.apple.com/in/app/industrybuying/id1602345204" target="_blank">
+                                <i style="color: rgb(32, 101, 191);" class="fa-brands fa-app-store-ios"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="newsletter">
+                    <p>Subscribe to Newsletter</p>
+                    <form>
+                        <div>
+                            <input style="height: 32px; width: 150px; border: none; border-radius: 2px;" type="email"
+                                placeholder="example@gmail.com" />
+                            <button
+                                style="height: 35px; width: 45px; background-color: rgb(220, 70, 15); border: none; border-radius: 2px;"
+                                type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                    <p style="font-size: 13px;">Sign up to get exclusive offers from our favorite brands and to be well
+                        up
+                        in the news</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="payment-logo">
+            <div>
+                <span>Payment Options</span>
+                <i style="color: rgb(167, 29, 29);" class="fa-brands fa-cc-visa"></i>
+                <i style="color: rgb(167, 29, 29);" class="fa-brands fa-cc-mastercard"></i>
+                <i style="color: rgb(32, 101, 191);" class="fa-brands fa-google-pay"></i>
+            </div>
+
+        </div>
+        <div id="copyright">
+            <span>Copyright © industrybuying.com 2013-2022 All Right Reserved |</span>
+            <a href="privacy.html"><span>Privacy Policy | Terms & Conditions</span></a>
+            <a href="adminlog.html"><span style="color: white;margin-left: 20px;">Admin</span></a>
+        </div>
+        <div id="footer-text">
+            <h4 style="font-weight:normal">Your trusted Partner to buy Business Supplies online</h4>
+            <p>At Industrybuying.com, we are committed to offering the best online shopping experience to our customers.
+                So be it
+                exclusive prices on the top brands or an array of top notch products, you can order the top quality
+                Industrial and
+                Business Supplies at affordable prices online. Get exciting deals to empty your wish-list at the largest
+                e-procurement
+                platform and enjoy the best B2B e-commerce experience like never before. All top brands under a single
+                roof, quality
+                assured products and value for money offers make it the biggest B2B marketplace amongst all B2B
+                suppliers. Avail best
+                prices when you shop online at India’s leading B2B E-commerce Portal. Also, get the services of our best
+                dealer and
+                distributor network in top cities such as Delhi NCR, Mumbai, Chennai, Bengaluru, Kolkata, Chennai, Pune,
+                Jaipur,
+                Hyderabad and Ahmedabad.</p>
+        </div>
+    </footer>
+    <!-- scroll-top -->
+    <div id="scroll-top">
+        <a class="gotopbtn" href=""><i class="fas fa-arrow-up"></i></a>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
