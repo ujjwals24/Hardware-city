@@ -5,7 +5,7 @@ WebsiteLogo-![HARDWARE CITYY](https://user-images.githubusercontent.com/11546073
 Website Link:- https://animated-cassata-0019dd.netlify.app/
 
 Team Members :- 
-1. Roushan Kumar(TeamLeader)
+1. Ujjwal Singh(TeamLeader)
 2. Ratul Mukherjee
 3. Swati Kharote
 4. Omkar Dhanave 
